@@ -27,15 +27,3 @@ python3 examples/check_xpu.py
     NumPy 버전: ultralytics 설치 시 NumPy 2.x가 깔릴 수 있으니 반드시 numpy<2를 유지해야 합니다.
 
     환경 변수: 실행 전 source /opt/intel/oneapi/setvars.sh가 필요할 수 있습니다.
-
-
----
-
-## 5. 저장 후 최종 업로드
-파일 내용을 다 채우셨다면, 터미널에서 아래 명령어로 GitHub에 올리세요.
-
-```bash
-cd ~/galaxybook4_intel_xpu
-git add .
-git commit -m "Complete scripts and README for Intel Arc setup"
-git push -u origin main
